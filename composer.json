@@ -1,0 +1,37 @@
+{
+  "name": "soberwp/unravel",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "description": "WordPress plugin to seperate concerns for plugins Models and Advanced Custom Fields.",
+  "homepage": "https://github.com/soberwp",
+  "authors": [
+    {
+      "name": "Darren Jacoby",
+      "email": "darren@jacoby.co.za",
+      "homepage": "https://github.com/darrenjacoby"
+    }
+  ],
+  "keywords": [
+    "wordpress"
+  ],
+  "support": {
+    "issues": "https://github.com/soberwp/unravel/issues"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "composer/installers": "~1.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sober\\Unravel\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": [
+      "vendor/bin/phpcs --extensions=php --ignore=vendor/ ."
+    ]
+  }
+}
