@@ -31,7 +31,7 @@ Move your data/model config files out of your theme folder for better separation
 * Moves folders `model-config/` and `acf-json/` within your theme to `wp-content/models/` (or `web/app/models/` for Bedrock).
 * Updates and overrides save/load filter paths for each plugin.
 
-**Deactivation:**
+**Deactivation;**
 
 * Data/model config files are moved back to their default locations within your theme.
 
