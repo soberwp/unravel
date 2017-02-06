@@ -24,7 +24,7 @@ $ wp plugin activate unravel
 
 ## Usage:
 
-Automatically move your data/model config files out of your theme for better seperation of concerns.
+Move your data/model config files out of your theme folder for better separation of concerns.
 
 **Unravel performs the following tasks;**
 
