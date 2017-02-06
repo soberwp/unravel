@@ -2,7 +2,7 @@
 /*
 Plugin Name:        Unravel
 Plugin URI:         http://github.com/soberwp/unravel
-Description:        WordPress plugin to seperate concerns for plugins Models and Advanced Custom Fields
+Description:        WordPress plugin to separate concerns for plugins Models and Advanced Custom Fields
 Version:            1.0.0
 Author:             Sober
 Author URI:         http://github.com/soberwp/

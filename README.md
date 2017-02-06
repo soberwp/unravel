@@ -1,6 +1,6 @@
 # Models
 
-WordPress plugin to seperate concerns for [Models](https://github.com/soberwp/models) and [Advanced Custom Fields](https://www.advancedcustomfields.com/) from your theme. 
+WordPress plugin to separate concerns for [Models](https://github.com/soberwp/models) and [Advanced Custom Fields](https://www.advancedcustomfields.com/) from your theme. 
 
 ## Installation
 

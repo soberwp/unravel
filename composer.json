@@ -2,7 +2,7 @@
   "name": "soberwp/unravel",
   "type": "wordpress-plugin",
   "license": "MIT",
-  "description": "WordPress plugin to seperate concerns for plugins Models and Advanced Custom Fields.",
+  "description": "WordPress plugin to separate concerns for plugins Models and Advanced Custom Fields.",
   "homepage": "https://github.com/soberwp",
   "authors": [
     {
