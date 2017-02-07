@@ -35,7 +35,7 @@ class Migrate
      */
     protected function setOriginPath($filter)
     {
-        $this->originPath = (has_filter($filter) ?  apply_filters($filter, rtrim($path)) : get_stylesheet_directory() . '/' . $this->pathDefault);
+        $this->originPath = (has_filter($filter) ?  apply_filters($filter, rtrim($this->originPath)) : get_stylesheet_directory() . '/' . $this->pathDefault);
     }
 
     /**
