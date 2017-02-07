@@ -54,7 +54,7 @@ class Unravel
             return $this->path . '/acf';
         });
 
-        add_filter('acf/settings/load_json', function ($path) {
+        add_filter('acf/settings/load_json', function ($paths) {
             unset($paths[0]);
             $paths[] = $this->path . '/acf';
             return $paths;
