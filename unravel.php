@@ -18,20 +18,13 @@ use Sober\Unravel\Migrate\Models;
 use Sober\Unravel\Migrate\AdvancedCustomFields;
 
 /**
- * Restrict direct access to file
+ * Plugin
  */
 if (!defined('ABSPATH')) {
     die;
-}
+};
 
-/**
- * Require Composer PSR-4 autoloader, fallback dist/autoload.php
- */
-if (file_exists($composer = __DIR__ . '/vendor/autoload.php')) {
-    require $composer;
-} else {
-    require __DIR__ . '/dist/autoload.php';
-}
+require(file_exists($composer = __DIR__ . '/vendor/autoload.php') ? $composer : __DIR__ . '/dist/autoload.php');
 
 /**
  * Hook into after_setup_theme and initalise Unravel

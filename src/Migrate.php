@@ -39,16 +39,6 @@ class Migrate
     }
 
     /**
-     * Origin exists
-     */
-     /*
-    protected function foldersExist()
-    {
-        if (file_exists($this->path) || file_exists($this->origin)) return true;
-    }
-    */
-
-    /**
      * Folder exists
      */
     protected function folderExist($path)
