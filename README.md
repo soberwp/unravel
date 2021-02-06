@@ -1,5 +1,7 @@
 # Unravel
 
+**Please note that this package is deprecated and no longer supported in order to focus on more popular packages.**
+
 WordPress plugin to separate concerns for [Models](https://github.com/soberwp/models) and [Advanced Custom Fields](https://www.advancedcustomfields.com/) from your theme. 
 
 ## Installation
